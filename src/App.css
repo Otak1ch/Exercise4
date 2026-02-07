@@ -1,0 +1,68 @@
+.app {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    gap: 20px;                
+    color: #afabc1;
+    font-family: 'Arial Black', Arial, sans-serif;
+}
+
+.title {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    text-shadow:
+        -2px -2px 0 #080b17,
+         2px -2px 0 #080b17,
+        -2px  2px 0 #080b17,
+         2px  2px 0 #080b17;
+}
+
+.search {
+    width: 600px;
+    height: 60px;
+    font-size: 20px;
+    padding: 0 30px;
+    border-radius: 14px;
+    border: 3px solid rgb(48, 26, 48);
+    outline: none;
+    text-align: start;
+}
+
+.search::placeholder {
+    font-size: 20px;
+    color: #aaa;
+    text-align: start;
+}
+
+.postList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;           
+    max-width: 700px;     
+    text-shadow:
+        -1px -1px 0 #080b17,
+         1px -1px 0 #080b17,
+        -1px  1px 0 #080b17,
+         1px  1px 0 #080b17; 
+}
+
+.postItem {
+    background-color: #4a3e79;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.postTitle {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    color: #ededf3;
+}
+
+.postBody {
+    margin: 0;
+    font-size: 18px;
+}
